@@ -1,0 +1,15 @@
+"format the data into json and give the details below
+{
+    "customerId": "",
+    "registrationNo": "",
+    "name": "",
+    "yearOfInfo": "",
+    "dateOfRegistration": "dd-mm-yyyy in this format",
+    "stateMedicalCouncil": "",
+    "fatherOrHusbandName": "",
+    "universityName": "",
+    "qualification": "",
+    "qualificationYear": "",
+    "permanentAddress": ""
+}
+give only the response in mentioned json format, if any value is N/A return as null"
