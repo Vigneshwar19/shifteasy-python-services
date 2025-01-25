@@ -1,0 +1,176 @@
+2025-01-25 18:41:16,668 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 1}
+2025-01-25 18:41:16,686 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:41:17,748 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:41:19,206 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 1}
+2025-01-25 18:41:19,252 - __main__ - INFO - Response time for the request: 2.58 seconds
+2025-01-25 18:41:19,287 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:41:26,162 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 1}
+2025-01-25 18:41:26,164 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:41:26,174 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 1}
+2025-01-25 18:41:26,216 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:41:26,966 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:41:27,925 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:41:28,645 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 1}
+2025-01-25 18:41:28,645 - __main__ - INFO - Response time for the request: 2.47 seconds
+2025-01-25 18:41:28,645 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:41:28,712 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 1}
+2025-01-25 18:41:28,713 - __main__ - INFO - Response time for the request: 2.55 seconds
+2025-01-25 18:41:28,714 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:41:48,961 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 1}
+2025-01-25 18:41:49,085 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:41:49,975 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:41:50,162 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 1}
+2025-01-25 18:41:50,164 - __main__ - INFO - Response time for the request: 1.20 seconds
+2025-01-25 18:41:50,164 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:42:29,340 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:42:29,367 - __main__ - ERROR - customerId is required
+2025-01-25 18:43:17,808 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:43:17,809 - __main__ - ERROR - customerId is required
+2025-01-25 18:43:38,782 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:43:38,842 - __main__ - ERROR - customerId is required
+2025-01-25 18:44:44,173 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:44:44,231 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:44:44,231 - __main__ - ERROR - customerId is required
+2025-01-25 18:44:44,232 - __main__ - ERROR - customerId is required
+2025-01-25 18:44:48,241 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:44:48,339 - __main__ - ERROR - customerId is required
+2025-01-25 18:46:08,733 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:46:08,735 - __main__ - ERROR - customerId is required
+2025-01-25 18:46:27,696 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': ''}
+2025-01-25 18:46:27,696 - __main__ - ERROR - customerId is required
+2025-01-25 18:47:09,853 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': ''}
+2025-01-25 18:47:09,860 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:47:10,711 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:47:10,903 - __main__ - ERROR - Error: invalid input syntax for type bigint: ""
+LINE 6:         VALUES ('', '13.093851', '80.198574', 'Jawaharlal Ne...
+                        ^
+
+2025-01-25 18:47:10,905 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:48:25,896 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': ''}
+2025-01-25 18:48:25,899 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:48:26,730 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:48:26,982 - __main__ - ERROR - Error: invalid input syntax for type bigint: ""
+LINE 6:         VALUES ('', '13.093851', '80.198574', 'Jawaharlal Ne...
+                        ^
+
+2025-01-25 18:48:26,983 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:49:37,465 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': ''}
+2025-01-25 18:49:37,469 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:49:38,146 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:49:38,290 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 18:49:38,291 - __main__ - INFO - Response time for the request: 0.83 seconds
+2025-01-25 18:49:38,292 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:50:03,583 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:50:03,587 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:50:04,253 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:50:04,466 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 18:50:04,468 - __main__ - INFO - Response time for the request: 0.89 seconds
+2025-01-25 18:50:04,469 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:51:09,231 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:51:09,238 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:51:10,000 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:51:12,075 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 18:51:12,083 - __main__ - INFO - Response time for the request: 2.85 seconds
+2025-01-25 18:51:12,085 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:51:26,718 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:51:26,721 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:51:27,545 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:51:28,890 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 18:51:28,891 - __main__ - INFO - Response time for the request: 2.17 seconds
+2025-01-25 18:51:28,892 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:56:53,548 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:56:53,553 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:56:54,857 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:56:55,881 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 18:56:55,895 - __main__ - INFO - Response time for the request: 2.35 seconds
+2025-01-25 18:56:55,991 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:57:54,503 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:57:54,571 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:57:55,383 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:57:58,244 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 18:57:58,246 - __main__ - INFO - Response time for the request: 3.74 seconds
+2025-01-25 18:57:58,246 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:58:39,638 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:58:39,946 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:58:39,947 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:58:40,315 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:58:40,888 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:58:41,947 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:58:44,068 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 18:58:44,068 - __main__ - INFO - Response time for the request: 4.43 seconds
+2025-01-25 18:58:44,069 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:58:44,248 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 18:58:44,253 - __main__ - INFO - Response time for the request: 4.31 seconds
+2025-01-25 18:58:44,253 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:59:01,363 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:59:01,396 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:59:02,278 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:59:03,366 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 18:59:03,369 - __main__ - INFO - Response time for the request: 2.01 seconds
+2025-01-25 18:59:03,370 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:59:25,286 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:59:25,296 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:59:25,985 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:59:26,192 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 18:59:26,192 - __main__ - INFO - Response time for the request: 0.91 seconds
+2025-01-25 18:59:26,193 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 18:59:42,114 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 18:59:42,122 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 18:59:42,967 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 18:59:43,229 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 18:59:43,230 - __main__ - INFO - Response time for the request: 1.12 seconds
+2025-01-25 18:59:43,230 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 19:01:01,089 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 19:01:01,096 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 19:01:01,902 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 19:01:02,051 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 19:01:02,052 - __main__ - INFO - Response time for the request: 0.96 seconds
+2025-01-25 19:01:02,053 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 19:01:20,890 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 19:01:20,900 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 19:01:21,651 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 19:01:21,974 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 19:01:21,981 - __main__ - INFO - Response time for the request: 1.09 seconds
+2025-01-25 19:01:21,984 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 19:03:19,383 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 19:03:19,388 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 19:03:20,075 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 19:03:20,436 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 19:03:20,437 - __main__ - INFO - Response time for the request: 1.05 seconds
+2025-01-25 19:03:20,437 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 19:04:26,519 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 19:04:26,523 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 19:04:27,479 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 19:04:28,427 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 19:04:28,427 - __main__ - INFO - Response time for the request: 1.91 seconds
+2025-01-25 19:04:28,428 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 19:05:52,579 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 19:05:52,593 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 19:05:53,272 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 19:05:53,496 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 19:05:53,498 - __main__ - INFO - Response time for the request: 0.92 seconds
+2025-01-25 19:05:53,498 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 19:08:29,654 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 19:08:29,659 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 19:08:29,900 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 19:08:29,903 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 19:08:31,092 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 19:08:31,296 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 19:08:31,297 - __main__ - INFO - Response time for the request: 1.64 seconds
+2025-01-25 19:08:31,297 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 19:08:32,115 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 19:08:33,785 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 19:08:33,786 - __main__ - INFO - Response time for the request: 3.89 seconds
+2025-01-25 19:08:33,786 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 19:09:44,165 - __main__ - INFO - Received request: {'latitude': '13.093851', 'longitude': '80.198574', 'customerId': None}
+2025-01-25 19:09:44,167 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 19:09:45,432 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=13.093851&lon=80.198574&format=json HTTP/1.1" 200 826
+2025-01-25 19:09:45,570 - __main__ - INFO - response: {'road': 'Jawaharlal Nehru Road (100 Feet Road)', 'neighbourhood': 'Malar Colony', 'suburb': 'Zone 8 Anna Nagar', 'city': 'Chennai', 'state_district': 'Chennai', 'state': 'Tamil Nadu', 'ISO3166-2-lvl4': 'IN-TN', 'postcode': '600001', 'country': 'India', 'country_code': 'in', 'latitude': '13.093851', 'longitude': '80.198574', 'customerId': 0}
+2025-01-25 19:09:45,571 - __main__ - INFO - Response time for the request: 1.41 seconds
+2025-01-25 19:09:45,571 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
+2025-01-25 19:15:30,777 - __main__ - INFO - Received request: {'latitude': '51.5074', 'longitude': '-0.1278', 'customerId': ''}
+2025-01-25 19:15:30,804 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-01-25 19:15:32,250 - urllib3.connectionpool - DEBUG - https://nominatim.openstreetmap.org:443 "GET /reverse?lat=51.5074&lon=-0.1278&format=json HTTP/1.1" 200 915
+2025-01-25 19:15:32,527 - __main__ - INFO - response: {'historic': 'Mileage Central Point of London Plaque', 'road': 'Charing Cross', 'neighbourhood': 'Seven Dials', 'suburb': 'Waterloo', 'city': 'City of Westminster', 'ISO3166-2-lvl8': 'GB-WSM', 'state_district': 'Greater London', 'state': 'England', 'ISO3166-2-lvl4': 'GB-ENG', 'postcode': 'SW1A 2DR', 'country': 'United Kingdom', 'country_code': 'gb', 'latitude': '51.5074', 'longitude': '-0.1278', 'customerId': 0}
+2025-01-25 19:15:32,528 - __main__ - INFO - Response time for the request: 1.75 seconds
+2025-01-25 19:15:32,529 - __main__ - INFO - ----------------------------------------------------------------------------------------------------
