@@ -16,6 +16,28 @@ def get_db_connection():
     except Exception as e:
         print(f"Error while connecting to PostgreSQL: {e}")
         return None
+    
+def create_schema_and_table_for_geonames(query):
+    try:
+        connection = get_db_connection()
+        cursor = connection.cursor()
+
+        create_schema_query = """
+        CREATE SCHEMA IF NOT EXISTS geonames_schema;
+        """
+        cursor.execute(create_schema_query)
+
+        create_table_query = query
+
+        cursor.execute(create_table_query)
+
+        connection.commit()
+        cursor.close()
+        connection.close()
+        print("Schema and table are ready!")
+
+    except Exception as e:
+        print(f"Error creating schema and table: {e}")
 
 def create_schema_and_table():
     connection = get_db_connection()
